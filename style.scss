@@ -1,0 +1,30 @@
+*{
+    // margin: 0;
+    // padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.header{
+    grid-column: 1/13;
+    height: 95vh;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background: linear-gradient(45deg, rgba(255, 17, 0, 0.7), rgba(0, 0, 0, 0.9) 70.71%);
+    color: white;
+}
+
+.navigation a{
+    align-self: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
